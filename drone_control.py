@@ -9,7 +9,6 @@ root.geometry("300x200")
 # Frame
 frame = ttk.Frame(root, padding=10)
 frame.grid()
-
 # Label
 ttk.Label(frame, text="Drone Control").grid(column=0, row=0, columnspan=2)
 
